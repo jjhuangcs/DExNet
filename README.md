@@ -12,7 +12,7 @@ For each scale $s>1$, the features from the lower scale are fused with the count
 Finally, the features of the transmission image, the reflection image and the nonlinear residual image are mapped to image domain with an Image Reconstruction Module (IRM). 
 Here $\downarrow 2$ denotes bilinear interpolation by a factor of 0.5.
 
-![Image text](./images/DExNet_overview.png)
+![Image text](./DExNet/images/DExNet_overview.png)
 
 ### Data Preparation
 
