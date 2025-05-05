@@ -4,6 +4,10 @@ Jun-Jie Huang#(jjhuang@nudt.edu.cn), Tianrui Liu#*, Zihan Chen, Xinwang Liu, Men
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence 2025. (#equal contribution, *corresponding author)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-lightweight-deep-exclusion-unfolding/reflection-removal-on-sir-2-objects)](https://paperswithcode.com/sota/reflection-removal-on-sir-2-objects?p=a-lightweight-deep-exclusion-unfolding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-lightweight-deep-exclusion-unfolding/reflection-removal-on-sir-2-postcard)](https://paperswithcode.com/sota/reflection-removal-on-sir-2-postcard?p=a-lightweight-deep-exclusion-unfolding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-lightweight-deep-exclusion-unfolding/reflection-removal-on-sir-2-wild)](https://paperswithcode.com/sota/reflection-removal-on-sir-2-wild?p=a-lightweight-deep-exclusion-unfolding)
+
 
 ### Network Architecture
 Overview of the proposed Deep Exclusion unfolding Network (DExNet). DExNet consists of $S$ progressively refinement scales to estimate the transmission and the reflection images in a coarse-to-fine manner.
