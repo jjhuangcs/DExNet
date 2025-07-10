@@ -104,7 +104,7 @@ set_learning_rate(opt.lr)
 
 
 decay_rate = 0.5
-cosAnnealing = True
+cosAnnealing = False
 while engine.epoch < opt.nEpochs:
     if cosAnnealing==False:
         if opt.fixed_lr == 0:
