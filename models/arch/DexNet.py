@@ -424,7 +424,7 @@ class triRecon(nn.Module):
         return self.seqv(v), self.seqw(w), self.seqx(x)
 
 class DExNet(nn.Module):
-    '''DURRNet with Residual Modelling'''
+    '''DExNet without Feature Expansion'''
     def __init__(self, n_channels, out_channels):
         super(DExNet, self).__init__()
         fxin = 3
@@ -505,7 +505,7 @@ class DExNet(nn.Module):
         return out_l, out_r, out_rr, out_A
 
 class DExNet_expand(nn.Module):
-    '''DURRNet with Residual Modelling'''
+    '''DExNet with Feature Expansion'''
     def __init__(self, n_channels, out_channels):
         super(DExNet_expand, self).__init__()
         fxin = 3
